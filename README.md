@@ -1,4 +1,4 @@
-# Playing with Strings :octocat:
+# Playing with Strings
 
 ## Problem :rocket:
 
