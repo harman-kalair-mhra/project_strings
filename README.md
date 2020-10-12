@@ -7,7 +7,7 @@
 ### How To Run the Code?
 
 ```
-$ cd ../string_manipulation
+$ cd ../Project_Strings
 $ npm install
 $ npm start
 ```
