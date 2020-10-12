@@ -1,5 +1,9 @@
 # Playing with Strings
 
-## Problem :rocket
+:octocat:
 
-- This program will analyse text from some input from the user. :+1
+## Problem
+
+:rocket:
+
+- This program will analyse text from some input from the user.
