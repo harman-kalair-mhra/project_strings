@@ -6,6 +6,8 @@
 
 ### How To Run the Code?
 
-- \$ cd ../string_manipulation
-- \$ npm install
-- \$ npm start
+```
+$ cd ../string_manipulation
+$ npm install
+\$ npm start
+```
