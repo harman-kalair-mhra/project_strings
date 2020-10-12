@@ -1,5 +1,5 @@
 # Playing with Strings
 
-## Problem
+## Problem :rocket
 
-### You are going to write a program to analyse text from some input.
+- This program will analyse text from some input from the user. :+1
