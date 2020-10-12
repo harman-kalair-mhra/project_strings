@@ -9,5 +9,5 @@
 ```
 $ cd ../string_manipulation
 $ npm install
-\$ npm start
+$ npm start
 ```
