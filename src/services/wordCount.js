@@ -11,6 +11,7 @@ function WordCount(str) {
 
 rl.question("Type in words for word count: ", (answer) => {
   console.log("Your word count is " + WordCount(answer))
+  rl.close()
 })
 
 // console.log(WordCount("hello world"));
