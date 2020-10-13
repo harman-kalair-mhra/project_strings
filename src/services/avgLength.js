@@ -13,8 +13,10 @@ function Average (str) {
     string += wordArray[i].length;
   }
   var avgLen = string / wordCount;
-  return avgLen
+  return avgLen.toFixed(2)
 };
+
+
 
 rl.question("Type in words for Average word Length: ", (answer) => {
   console.log("Your Average count is " + Average(answer))
