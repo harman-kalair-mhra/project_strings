@@ -12,10 +12,9 @@ let rl = readline.createInterface({
 })
 
 rl.question("Type in words for analysis: ", (answer) => {
-    console.log("Here are your results: ", 
-    "Your Character count is: ", CharacterCount(answer), 
-    "Your Average Length is: ", Average(answer), 
-    "Your Word count is: ", WordCount(answer))
+    console.log("Your Character count is: ", CharacterCount(answer)), 
+    console.log("Your Average Length is: ", Average(answer)), 
+    console.log("Your Word count is: ", WordCount(answer))
     rl.close()
   })
 }
