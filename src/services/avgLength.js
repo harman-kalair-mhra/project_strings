@@ -1,9 +1,9 @@
-const readline = require('readline')
+// const readline = require('readline')
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-})
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// })
 
 function Average (str) {
   var wordCount = str.split(" ").length;
@@ -18,9 +18,11 @@ function Average (str) {
 
 
 
-rl.question("Type in words for Average word Length: ", (answer) => {
-  console.log("Your Average count is " + Average(answer))
-  rl.close()
-})
+// rl.question("Type in words for Average word Length: ", (answer) => {
+//   console.log("Your Average count is " + Average(answer))
+//   rl.close()
+// })
+
+module.exports = Average
 
 // console.log(Average("This function will analyze strings"));

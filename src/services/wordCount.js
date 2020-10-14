@@ -1,17 +1,19 @@
-const readline = require('readline')
+// const readline = require('readline')
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-})
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// })
 
 function WordCount(str) {
   return str.split(" ").length;
 }
 
-rl.question("Type in words for word count: ", (answer) => {
-  console.log("Your word count is " + WordCount(answer))
-  rl.close()
-})
+// rl.question("Type in words for word count: ", (answer) => {
+//   console.log("Your word count is " + WordCount(answer))
+//   rl.close()
+// })
+
+module.exports = WordCount
 
 // console.log(WordCount("hello world"));
