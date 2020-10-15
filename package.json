@@ -4,10 +4,14 @@
   "description": "This program will analyse text from some input from the user.",
   "main": "src/main.js",
   "scripts": {
+    "build": "tsc",
     "start": "node src/main.js",
     "test": "",
     "type": "module"
   },
   "author": "harmankalair",
-  "license": "n/a"
+  "license": "n/a",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
 }
