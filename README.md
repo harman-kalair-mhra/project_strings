@@ -11,3 +11,10 @@ $ cd ../Project_Strings
 $ npm install
 $ npm start
 ```
+
+### How to Test the Code?
+
+```
+npm test
+
+```
