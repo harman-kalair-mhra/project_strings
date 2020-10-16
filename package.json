@@ -6,12 +6,13 @@
   "scripts": {
     "build": "tsc",
     "start": "node src/main.js",
-    "test": "",
+    "test": "jest",
     "type": "module"
   },
   "author": "harmankalair",
   "license": "n/a",
   "devDependencies": {
+    "jest": "^26.5.3",
     "typescript": "^4.0.3"
   }
 }
