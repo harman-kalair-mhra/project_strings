@@ -4,17 +4,11 @@
 
 - This program will analyse text from some input from the user.
 
-### How To Run the Code?
+### How To Run/Test the Code?
 
 ```
 $ cd ../Project_Strings
 $ npm install
 $ npm start
-```
-
-### How to Test the Code?
-
-```
-npm test
-
+$ npm test
 ```
