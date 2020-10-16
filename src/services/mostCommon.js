@@ -1,6 +1,6 @@
-function mostCommon(str) {
+function MostCommon(str) {
         let words = str.replace(/[.]/g, '').split(/\s/);
-        let freqMap = {};
+        let freqMap = {}
         words.forEach(function(w) {
             if (!freqMap[w]) {
                 freqMap[w] = 0;
@@ -8,7 +8,7 @@ function mostCommon(str) {
             freqMap[w] += 1;
         });
     
-        return freqMap;
+        return freqMap
     }
 
-      module.exports = mostCommon
+      module.exports = MostCommon
