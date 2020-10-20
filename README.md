@@ -12,3 +12,11 @@ $ npm install
 $ npm start
 $ npm test
 ```
+
+### Running the Server
+
+Type the intructions below in the terminal to Run the server
+
+```
+node src/app-server.js
+```
