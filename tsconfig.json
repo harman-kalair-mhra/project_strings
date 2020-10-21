@@ -3,7 +3,9 @@
         "target": "es5",
         "module": "commonjs",
         "sourceMap": true,
-        "outDir": "./out"
+        "outDir": "./out",
+        "esModuleInterop": true
     },
-    "filesGlob": ["./src_ts/*.ts"]
+    "include": ["src_ts/**/*"],
+    "exclude": ["src_ts/**/*.test.*"]
 }

@@ -1,3 +1,3 @@
-function WordCount(str: string) : number {
+export default function WordCount(str: string) : number {
     return str.split(" ").length;
   }

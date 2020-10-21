@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "build": "tsc",
-    "start": "node src/main.js",
+    "start": "node out/main.js",
     "test": "jest",
     "type": "module"
   },

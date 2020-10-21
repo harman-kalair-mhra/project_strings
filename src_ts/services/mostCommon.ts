@@ -1,4 +1,4 @@
-function MostCommon(str: string): object {
+export default function MostCommon(str: string): object {
     let words = str.replace(/[.]/g, '').split(/\s/);
     let freqMap = {}
     words.forEach(function(w) {

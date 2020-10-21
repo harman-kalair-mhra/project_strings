@@ -1,4 +1,4 @@
-function Average (str: string): string {
+export default function Average (str: string): string {
     var wordCount = str.split(" ").length;
     var wordArray = str.split(" ");
     var string = 0;
