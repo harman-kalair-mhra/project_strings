@@ -18,5 +18,5 @@ $ npm test
 Type the instructions in the terminal below to Run the server
 
 ```
-node src/app-server.js
+node out/app-server.js
 ```
