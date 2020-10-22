@@ -1,0 +1,12 @@
+html
+    head
+        title= title
+    body
+        h1
+            | String Manipulation
+        form(action= '/manipulation', method='POST')
+            label(for="str")
+            div
+                textarea(type="text", name="str", id="str", rows="10", cols="10")
+            div
+                input(type="submit", value="Submit")
