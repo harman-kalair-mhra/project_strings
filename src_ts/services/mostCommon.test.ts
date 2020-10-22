@@ -1,4 +1,4 @@
-const MostCommon = require("../services/mostCommon")
+import MostCommon from "./mostCommon"
 
 describe("Test for Common Words", () => {
     test("returns total number of common words in a string", () => {
@@ -6,5 +6,3 @@ describe("Test for Common Words", () => {
         expect(MostCommon("github github github github github")).toEqual(testFreqMap)
     })
 })
-
-//in progress

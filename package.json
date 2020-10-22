@@ -9,13 +9,18 @@
     "test": "jest",
     "type": "module"
   },
+  "jest": {
+    "preset": "ts-jest"
+  },
   "author": "harmankalair",
   "license": "n/a",
   "devDependencies": {
     "jest": "^26.5.3",
+    "ts-jest": "^26.4.1",
     "typescript": "^4.0.3"
   },
   "dependencies": {
+    "@types/jest": "^26.0.15",
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
   }
