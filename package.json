@@ -5,9 +5,12 @@
   "main": "src/main.js",
   "scripts": {
     "build": "tsc",
-    "start": "node out/main.js",
+    "copy-views": "copyfiles -f \"src_ts/views/*.pug\" out/views",
+    "dev": "npm run copy-views && npm run watch & nodemon out/app-server.js",
+    "start": "node out/app-server.js",
     "test": "jest",
-    "type": "module"
+    "type": "module",
+    "watch": "tsc --watch"
   },
   "jest": {
     "preset": "ts-jest"
@@ -15,9 +18,13 @@
   "author": "harmankalair",
   "license": "n/a",
   "devDependencies": {
+    "copyfiles": "^2.4.0",
     "jest": "^26.5.3",
+    "nodemon": "^2.0.6",
+    "pug": "^3.0.0",
     "ts-jest": "^26.4.1",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "watch": "^1.0.2"
   },
   "dependencies": {
     "@types/jest": "^26.0.15",
