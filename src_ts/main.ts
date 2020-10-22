@@ -3,7 +3,7 @@ import Average from "./services/avgLength"
 import WordCount from "./services/wordCount"
 import MostCommon from "./services/mostCommon"
 
-let readline = require('readline')
+// let readline = require('readline')
 
 export default function main(str: string) :string {
 
