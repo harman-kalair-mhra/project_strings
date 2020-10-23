@@ -5,8 +5,9 @@
   "main": "src/main.js",
   "scripts": {
     "build": "tsc",
+    "copy-styles": "copyfiles -f \"src_ts/styles/*.css\" out/views",
     "copy-views": "copyfiles -f \"src_ts/views/*.pug\" out/views",
-    "dev": "npm run copy-views && npm run watch & nodemon out/app-server.js",
+    "dev": "npm run copy-styles && npm run copy-views && npm run watch & nodemon out/app-server.js",
     "start": "node out/app-server.js",
     "test": "jest",
     "type": "module",
@@ -29,6 +30,7 @@
   "dependencies": {
     "@types/jest": "^26.0.15",
     "body-parser": "^1.19.0",
+    "copy-styles": "^1.1.1",
     "express": "^4.17.1"
   }
 }
