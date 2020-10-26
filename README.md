@@ -15,8 +15,8 @@ $ npm test
 
 ### Running the Server
 
-Type the instructions in the terminal below to Run the server
+Type the instructions in the terminal below to Run the server/dev environment
 
 ```
-node out/app-server.js
+npm run dev
 ```
