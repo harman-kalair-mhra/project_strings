@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Textbox from "./components/Textbox"
+import TextBox from "./components/Textbox"
 
 function App() {
   return (
     <div className="App">
-      <Textbox />
+      <TextBox />
     </div>
   );
 }

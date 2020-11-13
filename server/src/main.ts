@@ -5,15 +5,15 @@ import MostCommon from "./services/mostCommon"
 
 // let readline = require('readline')
 
-export default function main(str: string) :string {
+export default function main(str: string) :object {
 
-  return (
-    `Character Count: ${(CharacterCount(str))}
-    Average Count: ${Average(str)}
-    Word Count: ${WordCount(str)}
-    Most Common: ${JSON.stringify(MostCommon(str))} 
-    `
-  )
+  return ({
+    CharacterCount: CharacterCount(str),
+    AverageCount: Average(str),
+    WordCount: WordCount(str),
+    MostCommon: JSON.stringify(MostCommon(str))
+    
+  })
 
 // let rl = readline.createInterface({
 //   input: process.stdin,

@@ -1,4 +1,4 @@
-import express from "express"
+import express, { Request, Response } from "express"
 // import * as path from "path"
 import CharacterCount from "./services/charCount.js"
 import Average from "./services/avgLength.js"
@@ -20,11 +20,20 @@ app.get("/", (req, res) => {
     res.render("index")
 })
 
-
+app.get("/express-server", (req: Request, res: Response) :void =>{
+    res.send( { express: 'Express server connected to react' })
+  })
 
 app.post("/manipulation", (req, res) => {
+    
     let stringAnalysis = Main(req.body.str)
     res.send(stringAnalysis)
+})
+
+app.post("/textAnalysis", (req: Request, res: Response): void => {
+    console.log(req.body)
+    // let stringAnalysis = Main((req.body.userInput))
+    // res.send(stringAnalysis)
 })
 
 // app.get("/character/:words", (req, res) => {
